@@ -1,0 +1,26 @@
+[MESSAGES CONTROL]
+# Disable specific pylint messages
+disable=
+    missing-module-docstring,  # Ignore missing docstring for the module
+    missing-function-docstring,  # Ignore missing docstring for functions
+    too-few-public-methods,  # Ignore classes with too few public methods
+    invalid-name,  # Ignore naming convention issues
+    line-too-long,  # Ignore lines exceeding the character limit
+    no-member,  # Ignore errors for dynamically added attributes
+    import-error,  # Ignore import errors (e.g., for external libraries)
+    unused-import,  # Ignore unused imports
+    broad-except,  # Ignore broad exception handling
+    too-many-locals,  # Ignore too many local variables in a function
+    too-many-arguments  # Ignore functions with too many arguments
+
+[FORMAT]
+# Set the maximum allowed line length
+max-line-length=150
+
+[DESIGN]
+# Allow more arguments in functions
+max-args=10
+
+[REPORTS]
+# Disable the report summary at the end
+reports=no
