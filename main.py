@@ -41,8 +41,7 @@ final_rag_prompt = """
         Think carefully about the above context.
         Now, review the user question:
         {question}
-        Provide an answer to this questions using only the above context.
-
+        Provide an answer to this question using only the above context.
         Use three sentences maximum and keep the answer concise.
 
         Answer:
