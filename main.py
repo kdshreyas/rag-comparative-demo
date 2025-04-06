@@ -59,8 +59,8 @@ def generate_answer(
     results = retriever.query(
         query_embeddings=[query_embedding], n_results=10, include=["documents"]
     )
-    retrieved_documents = results["documents"][0]
-    docs_txt = "\n".join(retrieved_documents)
+    retrieved_documents = results["documents"]
+    docs_txt = "\n".join(doc for doc_list in retrieved_documents for doc in doc_list)
     rag_prompt_formatted = rag_prompt.format(context=docs_txt, question=question)
     generation = llm.invoke([HumanMessage(content=rag_prompt_formatted)])
     return generation.content
