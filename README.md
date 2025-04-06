@@ -2,6 +2,12 @@
 
 This project demonstrates a comparison between **Naive Retrieval-Augmented Generation (RAG)** and **Re-ranked RAG** for question-answering tasks. It uses a local language model, embeddings, and a vector store to retrieve and rank relevant documents for generating concise answers.
 
+![image](https://github.com/user-attachments/assets/535656bc-b788-411a-9a9c-ab148d4a52b8)
+
+![image](https://github.com/user-attachments/assets/5ea5f4aa-455c-4155-8f82-abaebcb2f528)
+
+
+
 ## Features
 
 - **Naive RAG**: Retrieves documents and generates answers directly.
