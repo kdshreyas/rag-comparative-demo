@@ -32,7 +32,6 @@ This project demonstrates a comparison between **Naive Retrieval-Augmented Gener
 1. Clone the repository:
    ```bash
    git clone `https://github.com/kdshreyas/rag-comparative-demo`
-   cd "[03] RAG Project Final"
    ```
 
 2. Install the required dependencies:
